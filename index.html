@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/assets/favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+        <title>GAME.HUB</title>
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="brand">GAME<span>.HUB</span></h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <a href="#products" class="nav-link">Productos</a>
+                    <a href="#reviews" class="nav-link">Reseñas</a>
+                    <a href="#contact" class="nav-link">Contacto</a>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section id="products" class="section card-list">
+                <article
+                    class="card"
+                    style="
+                        --card-bg: url('../assets/games/gta6/images/gta6_art.webp');
+                    "
+                >
+                    <picture class="card-picture">
+                        <img
+                            src="./assets/games/gta6/images/gta6_art.webp"
+                            alt="Card Image"
+                            class="card-image"
+                        />
+                    </picture>
+                    <div class="card-content">
+                        <h3 class="card-title">Grand Theft Auto 6</h3>
+                        <p class="card-price">$79.99</p>
+                    </div>
+                </article>
+
+                <article
+                    class="card"
+                    style="
+                        --card-bg: url('../assets/games/rdr2/images/rdr2_art.webp');
+                    "
+                >
+                    <picture class="card-picture">
+                        <img
+                            src="./assets/games/rdr2/images/rdr2_art.webp"
+                            alt="Card Image"
+                            class="card-image"
+                        />
+                    </picture>
+                    <div class="card-content">
+                        <h3 class="card-title">Red Dead Redemption 2</h3>
+                        <p class="card-price">$59.99</p>
+                    </div>
+                </article>
+
+                <article
+                    class="card"
+                    style="
+                        --card-bg: url('../assets/games/gta5/images/gta5_art.webp');
+                    "
+                >
+                    <picture class="card-picture">
+                        <img
+                            src="./assets/games/gta5/images/gta5_art.webp"
+                            alt="Card Image"
+                            class="card-image"
+                        />
+                    </picture>
+                    <div class="card-content">
+                        <h3 class="card-title">Grand Theft Auto 5</h3>
+                        <p class="card-price">$49.99</p>
+                    </div>
+                </article>
+
+                <article
+                    class="card"
+                    style="
+                        --card-bg: url('../assets/games/bully/images/bully_art.webp');
+                    "
+                >
+                    <picture class="card-picture">
+                        <img
+                            src="./assets/games/bully/images/bully_art.webp"
+                            alt="Card Image"
+                            class="card-image"
+                        />
+                    </picture>
+                    <div class="card-content">
+                        <h3 class="card-title">Bully</h3>
+                        <p class="card-price">$29.99</p>
+                    </div>
+                </article>
+            </section>
+            <section id="reviews" class="section review-list">
+                <article class="review">
+                    <div class="review-stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                    </div>
+                    <p class="review-text">
+                        ¡Excelente tienda! Compré GTA 6 y recibí el código al
+                        instante. Muy recomendable.
+                    </p>
+                    <h3 class="review-author">— Juan</h3>
+                </article>
+
+                <article class="review">
+                    <div class="review-stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9734;</span>
+                    </div>
+                    <p class="review-text">
+                        Gran variedad de juegos y atención rápida. Volveré a
+                        comprar sin dudas.
+                    </p>
+                    <h3 class="review-author">— Camila</h3>
+                </article>
+
+                <article class="review">
+                    <div class="review-stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9734;</span>
+                    </div>
+                    <p class="review-text">
+                        El sitio es fácil de usar y los precios son muy buenos.
+                        ¡Gracias por el soporte!
+                    </p>
+                    <h3 class="review-author">— Lucas</h3>
+                </article>
+
+                <article class="review">
+                    <div class="review-stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                    </div>
+                    <p class="review-text">
+                        Me encantó la rapidez en la entrega y la calidad del
+                        servicio. ¡Sigan así!
+                    </p>
+                    <h3 class="review-author">— Sofía</h3>
+                </article>
+            </section>
+            <section id="contact" class="section">
+                <form
+                    action="https://formspree.io/f/xeogbzpg"
+                    method="post"
+                    class="form"
+                >
+                    <div class="form-group">
+                        <label for="name" class="form-label">Nombre</label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            required
+                            class="form-control"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label"
+                            >Correo electrónico</label
+                        >
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            required
+                            class="form-control"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Mensaje</label>
+                        <textarea
+                            name="message"
+                            id="message"
+                            cols="30"
+                            rows="10"
+                            required
+                            class="form-control"
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="form-button">Enviar</button>
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>&copy; 2025 GAME.HUB &mdash; Mathías Ezequiel Latrónico.</p>
+        </footer>
+    </body>
+</html>
