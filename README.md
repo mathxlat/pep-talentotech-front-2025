@@ -8,4 +8,4 @@ Cuenta con las siguientes secciones: productos, reseñas y un formulario de cont
 
 Siguiendo la estructura semántica recomendada para HTML.
 
-Utilizando la fuente 'Montserrat' de Google Fonts. Estilos básicos aplicando diseño responsivo utilizando flexbox, gris y media queries.
+Utilizando la fuente 'Montserrat' de Google Fonts. Estilos básicos aplicando diseño responsivo utilizando flexbox, grid y media queries.
