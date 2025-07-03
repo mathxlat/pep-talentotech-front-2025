@@ -175,6 +175,28 @@ ol, ul {
     font-weight: 400;
 }
 
+.card-button {
+    width: 100%;
+    background-color: transparent;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 4px;
+    border-style: solid;
+
+    &:hover {
+        color: var(--primary-color);
+        border-color: var(--primary-color);
+    }
+
+    &:focus {
+        outline-color: var(--primary-color);
+        outline-offset: 2px;
+        outline-style: solid;
+        outline-width: 2px;
+    }
+
+}
+
 .review-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));;
@@ -252,13 +274,42 @@ textarea {
     border-radius: 6px;
     font-size: 16px;
     padding: 6px;
+
+    &:focus {
+        outline-color: var(--primary-color);
+        outline-offset: 2px;
+        outline-style: solid;
+        outline-width: 2px;
+    }
 }
 
-.form-button:focus {
-    outline-color: var(--primary-color);
-    outline-offset: 2px;
-    outline-style: solid;
-    outline-width: 2px;
+.cart-actions {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.cart-button {
+    width: 100%;
+    background-color: transparent;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 6px;
+    border-style: solid;
+
+    &:hover {
+        color: var(--primary-color);
+        border-color: var(--primary-color);
+    }
+
+    &:focus {
+        outline-color: var(--primary-color);
+        outline-offset: 2px;
+        outline-style: solid;
+        outline-width: 2px;
+    }
+
 }
 
 .footer {

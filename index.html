@@ -22,11 +22,13 @@
             href="./assets/favicon/favicon-16x16.png"
         />
         <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+        <script type="module" src="./js/main.js"></script>
         <title>GAME.HUB</title>
     </head>
     <body>
         <header class="header">
-            <h1 class="brand">GAME<span>.HUB</span></h1>
+            <h1 class="brand">GAME<span>.SHOP</span></h1>
+            <a href="./cart.html">&#128722; <span id="cart-count">0</span></a>
             <nav class="nav">
                 <ul class="nav-list">
                     <a href="#products" class="nav-link">Productos</a>
@@ -36,83 +38,7 @@
             </nav>
         </header>
         <main class="main">
-            <section id="products" class="section card-list">
-                <article
-                    class="card"
-                    style="
-                        --card-bg: url('../assets/games/gta6/images/gta6_art.webp');
-                    "
-                >
-                    <picture class="card-picture">
-                        <img
-                            src="./assets/games/gta6/images/gta6_art.webp"
-                            alt="Card Image"
-                            class="card-image"
-                        />
-                    </picture>
-                    <div class="card-content">
-                        <h3 class="card-title">Grand Theft Auto 6</h3>
-                        <p class="card-price">$79.99</p>
-                    </div>
-                </article>
-
-                <article
-                    class="card"
-                    style="
-                        --card-bg: url('../assets/games/rdr2/images/rdr2_art.webp');
-                    "
-                >
-                    <picture class="card-picture">
-                        <img
-                            src="./assets/games/rdr2/images/rdr2_art.webp"
-                            alt="Card Image"
-                            class="card-image"
-                        />
-                    </picture>
-                    <div class="card-content">
-                        <h3 class="card-title">Red Dead Redemption 2</h3>
-                        <p class="card-price">$59.99</p>
-                    </div>
-                </article>
-
-                <article
-                    class="card"
-                    style="
-                        --card-bg: url('../assets/games/gta5/images/gta5_art.webp');
-                    "
-                >
-                    <picture class="card-picture">
-                        <img
-                            src="./assets/games/gta5/images/gta5_art.webp"
-                            alt="Card Image"
-                            class="card-image"
-                        />
-                    </picture>
-                    <div class="card-content">
-                        <h3 class="card-title">Grand Theft Auto 5</h3>
-                        <p class="card-price">$49.99</p>
-                    </div>
-                </article>
-
-                <article
-                    class="card"
-                    style="
-                        --card-bg: url('../assets/games/bully/images/bully_art.webp');
-                    "
-                >
-                    <picture class="card-picture">
-                        <img
-                            src="./assets/games/bully/images/bully_art.webp"
-                            alt="Card Image"
-                            class="card-image"
-                        />
-                    </picture>
-                    <div class="card-content">
-                        <h3 class="card-title">Bully</h3>
-                        <p class="card-price">$29.99</p>
-                    </div>
-                </article>
-            </section>
+            <section id="products" class="section card-list"></section>
             <section id="reviews" class="section review-list">
                 <article class="review">
                     <div class="review-stars">
@@ -218,7 +144,7 @@
             </section>
         </main>
         <footer class="footer">
-            <p>&copy; 2025 GAME.HUB &mdash; Mathías Ezequiel Latrónico.</p>
+            <p>&copy; 2025 GAME.SHOP &mdash; Mathías Ezequiel Latrónico.</p>
         </footer>
     </body>
 </html>
