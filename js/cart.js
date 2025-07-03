@@ -17,10 +17,7 @@ const saveCart = (cart) => {
 };
 
 const clearCart = () => {
-    const secure = confirm("¿Está seguro de vaciar el carrito?");
-    if (secure) {
-        localStorage.setItem("cart", JSON.stringify([]));
-    }
+    localStorage.setItem("cart", JSON.stringify([]));
 };
 
 const completePurchase = () => {
